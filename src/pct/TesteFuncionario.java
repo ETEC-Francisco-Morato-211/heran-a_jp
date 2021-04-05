@@ -39,12 +39,12 @@ public class TesteFuncionario {
         colaboradorVendedor.setMatricula(654321);
         colaboradorVendedor.setNome("Maria");
         colaboradorVendedor.setNivel('P');
-        colaboradorVendedor.setSalario(5000);
+        colaboradorVendedor.setSalario(5.000);
         colaboradorVendedor.setComissao(600);
         
         //Imprimindo Vendedor
-        System.out.println("\n\t\t\t -- Vendedor 1 -- ");
-        colaboradorVendedor.comissao();
+        System.out.println("\n\t\t\t --- Vendedor 1 --- ");
+        colaboradorVendedor.apresentarFuncionario();
         
     }
     
